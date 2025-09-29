@@ -138,11 +138,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-web3-green" />
-                <span className="text-muted-foreground">web3.marketing@example.com</span>
+                <a href="mailto:hartitudehcryptotech@gmail.com"><span className="text-muted-foreground">hartitudehcryptotech@gmail.com</span></a>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="w-5 h-5 text-web3-green" />
-                <span className="text-muted-foreground">@web3marketingpro</span>
+                <a href="https://wa.link/oz6pda" target="_blank"><span className="text-muted-foreground">Whatsapp</span></a>
               </div>
             </div>
 

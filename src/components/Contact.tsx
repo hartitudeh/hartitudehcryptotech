@@ -90,25 +90,25 @@ const Contact = () => {
                 {
                   icon: <Mail className="w-6 h-6" />,
                   title: "Email",
-                  content: "web3.marketing@example.com",
+                  content: "hartitudehcryptotech@gmail.com",
                   color: "text-web3-purple"
                 },
                 {
                   icon: <MessageCircle className="w-6 h-6" />,
                   title: "Telegram",
-                  content: "@web3marketingpro",
+                  content: "t.me/hartitudeh",
                   color: "text-web3-cyan"
                 },
                 {
                   icon: <Phone className="w-6 h-6" />,
                   title: "Phone",
-                  content: "+1 (555) 123-4567",
+                  content: "+234 708 377 7336",
                   color: "text-web3-green"
                 },
                 {
                   icon: <MapPin className="w-6 h-6" />,
                   title: "Location",
-                  content: "San Francisco, CA",
+                  content: "Lagos, Nigeria",
                   color: "text-web3-pink"
                 }
               ].map((contact, index) => (
