@@ -59,12 +59,6 @@ const Navbar = () => {
         className="h-10 w-auto transition-all"
       />
     </motion.div>
-          {/* <motion.div
-            whileHover={{ scale: 1.05 }}
-            className="flex items-center"
-          >
-            <img src={logo} alt="Hartitudeh CryptoTech" className="h-10 w-auto" />
-          </motion.div> */}
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

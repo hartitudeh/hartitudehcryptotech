@@ -6,25 +6,26 @@ import { ExternalLink, Gift, TrendingUp, Clock } from "lucide-react";
 
 const airdrops = [
   {
-    name: "Starknet",
+    name: "Lio",
     description: "Layer 2 scaling solution with mainnet live. Complete testnet transactions to qualify.",
     status: "Active",
     category: "Layer 2",
-    rewards: "TBA",
+    referCode: "PELUMIADEYEMI111E7O9CXVl78dY", // Example refer code
+    // rewards: "Up to $50 in LIO tokens", --- IGNORE ---
     requirements: [
-      "Bridge assets to Starknet",
-      "Complete swaps on DEXs",
-      "Provide liquidity"
+      "Download Lio app from Google Play",
+      "Input the refer code and earn 1 lio",
+      "Mine 4 more lio tokens everyday"
     ],
-    link: "https://www.starknet.io/",
-    logo: "🔷"
+    link: "https://play.google.com/store/apps/details?id=com.io.liocoinbase",
+    logo: "🦁"
   },
   {
     name: "zkSync Era",
     description: "zkEVM rollup with active ecosystem. Interact with dApps to potentially qualify.",
     status: "Active",
     category: "Layer 2",
-    rewards: "TBA",
+    referCode: "TBA",
     requirements: [
       "Bridge to zkSync Era",
       "Use zkSync native dApps",
@@ -38,7 +39,7 @@ const airdrops = [
     description: "Omnichain interoperability protocol. Use LayerZero-powered bridges and apps.",
     status: "Active",
     category: "Interoperability",
-    rewards: "TBA",
+    referCode: "TBA",
     requirements: [
       "Use Stargate Finance",
       "Try multiple LayerZero apps",
@@ -52,7 +53,7 @@ const airdrops = [
     description: "Explore MetaMask Snaps ecosystem for potential rewards.",
     status: "Speculative",
     category: "Wallet",
-    rewards: "TBA",
+    referCode: "TBA",
     requirements: [
       "Install MetaMask Snaps",
       "Use Snaps features",
@@ -66,7 +67,7 @@ const airdrops = [
     description: "zkEVM Layer 2 with growing ecosystem. Early adopters may benefit.",
     status: "Active",
     category: "Layer 2",
-    rewards: "TBA",
+    referCode: "TBA",
     requirements: [
       "Bridge to Scroll",
       "Interact with Scroll dApps",
@@ -80,7 +81,7 @@ const airdrops = [
     description: "Coinbase's Layer 2 built on OP Stack. Active ecosystem development.",
     status: "Active",
     category: "Layer 2",
-    rewards: "TBA",
+    referCode: "TBA",
     requirements: [
       "Bridge to Base",
       "Use Base dApps",
@@ -145,7 +146,7 @@ const Airdrops = () => {
                     </Badge>
                     <Badge variant="outline" className="text-xs">
                       <TrendingUp className="w-3 h-3 mr-1" />
-                      {airdrop.rewards}
+                      {airdrop.referCode}
                     </Badge>
                   </div>
                 </CardHeader>

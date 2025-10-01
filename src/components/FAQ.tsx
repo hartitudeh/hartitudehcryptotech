@@ -13,7 +13,7 @@ const faqData = [
   },
   {
     question: "How do you measure success in Web3 marketing campaigns?",
-    answer: "Success in Web3 marketing goes beyond traditional metrics. I track community growth, engagement quality, token holder retention, trading volume increases, and partnership quality. Key performance indicators include community sentiment analysis, organic reach, influencer partnership ROI, and long-term project sustainability. For Meta Whale, we achieved 400% growth in 6 months with 95% community engagement rates."
+    answer: "Success in Web3 marketing goes beyond traditional metrics. I track community growth, engagement quality, token holder retention, trading volume increases, and partnership quality. Key performance indicators include community sentiment analysis, organic reach, influencer partnership ROI, and long-term project sustainability. For Meta Whale, we achieved 4000% growth in 3 years with 95% community engagement rates."
   },
   {
     question: "What services do you offer for Web3 projects?",
