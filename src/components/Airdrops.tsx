@@ -9,7 +9,7 @@ const airdrops = [
     name: "Lio",
     description: "Layer 2 scaling solution with mainnet live. Complete testnet transactions to qualify.",
     status: "Active",
-    category: "Layer 2",
+    category: "Code 👉",
     referCode: "PELUMIADEYEMI111E7O9CXVl78dY", // Example refer code
     // rewards: "Up to $50 in LIO tokens", --- IGNORE ---
     requirements: [
@@ -21,74 +21,74 @@ const airdrops = [
     logo: "🦁"
   },
   {
-    name: "zkSync Era",
+    name: "SoSoValue",
     description: "zkEVM rollup with active ecosystem. Interact with dApps to potentially qualify.",
     status: "Active",
-    category: "Layer 2",
-    referCode: "TBA",
+    category: "Code 👉",
+    referCode: "27Y578K5",
     requirements: [
       "Bridge to zkSync Era",
       "Use zkSync native dApps",
       "Complete multiple transactions"
     ],
-    link: "https://zksync.io/",
+    link: "https://sosovalue.com/join/27Y578K5",
     logo: "⚡"
   },
   {
-    name: "LayerZero",
+    name: "DOT Chain",
     description: "Omnichain interoperability protocol. Use LayerZero-powered bridges and apps.",
     status: "Active",
-    category: "Interoperability",
-    referCode: "TBA",
+    category: "Code 👉",
+    referCode: "Hartitudeh",
     requirements: [
       "Use Stargate Finance",
       "Try multiple LayerZero apps",
       "Bridge across chains"
     ],
-    link: "https://layerzero.network/",
+    link: "https://dotchain.network/refer/Hartitudeh",
     logo: "🌐"
   },
   {
-    name: "MetaMask Snaps",
+    name: "Qubit",
     description: "Explore MetaMask Snaps ecosystem for potential rewards.",
     status: "Speculative",
-    category: "Wallet",
-    referCode: "TBA",
+    category: "Code 👉",
+    referCode: "DevHart",
     requirements: [
       "Install MetaMask Snaps",
       "Use Snaps features",
       "Provide feedback"
     ],
-    link: "https://metamask.io/snaps/",
+    link: "https://play.google.com/store/apps/details?id=com.qubit.network",
     logo: "🦊"
   },
   {
-    name: "Scroll",
+    name: "Sprout Network",
     description: "zkEVM Layer 2 with growing ecosystem. Early adopters may benefit.",
     status: "Active",
-    category: "Layer 2",
-    referCode: "TBA",
+    category: "Code 👉",
+    referCode: "investorken",
     requirements: [
       "Bridge to Scroll",
       "Interact with Scroll dApps",
       "Maintain activity"
     ],
-    link: "https://scroll.io/",
+    link: "https://play.google.com/store/apps/details?id=com.sproutnetwork.app",
     logo: "📜"
   },
   {
-    name: "Base",
+    name: "Tenaz",
     description: "Coinbase's Layer 2 built on OP Stack. Active ecosystem development.",
     status: "Active",
-    category: "Layer 2",
-    referCode: "TBA",
+    category: "Code 👉",
+    referCode: "hartitudehcryptotech",
     requirements: [
       "Bridge to Base",
       "Use Base dApps",
       "Complete transactions"
     ],
-    link: "https://base.org/",
-    logo: "🔵"
+    link: "https://tenaz.minetenaz.com/hartitudehcryptotech",
+    logo: "⚡️"
   }
 ];
 
