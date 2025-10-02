@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import MetaWhaleFlyer from "@/components/MetaWhaleFlyer";
 
 const Index = () => {
   return (
@@ -15,13 +16,17 @@ const Index = () => {
       <div id="home">
         <Hero />
       </div>
+
       <div id="crypto">
         <CryptoGrid />
       </div>
+
       <div id="airdrops">
         <Airdrops />
       </div>
+
       <Portfolio />
+      <MetaWhaleFlyer />
       <div id="testimonials">
         <Testimonials />
       </div>

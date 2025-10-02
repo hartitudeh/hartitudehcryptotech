@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { TrendingUp, Users, Zap, Target } from "lucide-react";
+import { TrendingUp, Users, Zap, Target, Code } from "lucide-react";
 import { useTypewriter } from "@/hooks/useTypewriter";
 import profileImage from "@/assets/profile-placeholder.jpg";
 
@@ -19,11 +19,11 @@ const Portfolio = () => {
 
   const achievements = [
     {
-      icon: <TrendingUp className="w-8 h-8" />,
-      title: "Meta Whale Success",
+      icon: <Code className="w-8 h-8" />,
+      title: "Web Developement",
       description:
-        "Led the marketing campaign that grew Meta Whale from 0 to 100K+ community members",
-      metrics: "4000% growth in 3 years",
+        "Developed and launched 100+ websites with modern frameworks and best practices",
+      metrics: "70% growth in 3 years",
       color: "text-web3-purple",
     },
     {
